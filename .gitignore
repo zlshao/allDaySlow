@@ -1,0 +1,5 @@
+      Testset/
+      !Trainset/
+      文件处理/*.csv
+      output/
+      SDSDetector.plk
