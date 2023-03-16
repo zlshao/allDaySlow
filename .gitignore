@@ -2,7 +2,9 @@ Testset/
 
 !Trainset/
 
-文件处理/*.csv
+!文件处理/*.py
+
+文件处理/
 
 output/
 
