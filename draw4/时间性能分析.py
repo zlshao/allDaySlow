@@ -42,7 +42,7 @@ y51=[8177.2265681,
 ax1 = plt.subplot(gs[0, :3]) # gs(哪一行，绘制网格列的范围)
 plt.ylim(0, 8700) #显示的y轴范围
 # plt.figure(figsize = (10, 10)) #设置图像大小，当然可以设成方形（12,8）挺合适
-plt.bar(x,y11, color='#DD6B4F',width=0.6)
+plt.bar(x,y11, color='#203378',width=0.6)
 for a,b in zip(x,y11):   #柱子上的数字显示
  plt.text(a,b,'%.2f'%b,ha='center',va='bottom',fontsize=18);
 plt.xticks(fontsize=20)#嗯调调字体
@@ -59,7 +59,7 @@ plt.xlabel('(a) Sketch处理时间(s) ', fontsize=20) # x轴名称
 ax2 = plt.subplot(gs[0, 3:])
 plt.ylim(0, 42) #显示的y轴范围
 # plt.figure(figsize = (10, 10)) #设置图像大小，当然可以设成方形（12,8）挺合适
-plt.bar(x,y21, color='#006D87',width=0.6)
+plt.bar(x,y21, color='#6989b9',width=0.6)
 for a,b in zip(x,y21):   #柱子上的数字显示
  plt.text(a,b,'%.2f'%b,ha='center',va='bottom',fontsize=18);
 plt.xticks(fontsize=20)#嗯调调字体
@@ -74,7 +74,7 @@ plt.xlabel('(b) 检测时间(s) ', fontsize=20) # x轴名称
 ax3 = plt.subplot(gs[1, :3])
 plt.ylim(0, 13) #显示的y轴范围
 # plt.figure(figsize = (10, 10)) #设置图像大小，当然可以设成方形（12,8）挺合适
-plt.bar(x,y31, color='#535164',width=0.6)
+plt.bar(x,y31, color='#a9c1a3',width=0.6)
 for a,b in zip(x,y31):   #柱子上的数字显示
  plt.text(a,b,'%.2f'%b,ha='center',va='bottom',fontsize=18);
 plt.xticks(fontsize=20)#嗯调调字体
@@ -89,7 +89,7 @@ plt.xlabel('(c) 过滤并输出扫描器IP时间(s) ', fontsize=20) # x轴名称
 ax4 = plt.subplot(gs[1, 3:])
 plt.ylim(0, 5.5) #显示的y轴范围
 # plt.figure(figsize = (10, 10)) #设置图像大小，当然可以设成方形（12,8）挺合适
-plt.bar(x,y41, color='#FFD700',width=0.6)
+plt.bar(x,y41, color='#e3bf2b',width=0.6)
 for a,b in zip(x,y41):   #柱子上的数字显示
  plt.text(a,b,'%.2f'%b,ha='center',va='bottom',fontsize=18);
 plt.xticks(fontsize=20)#嗯调调字体
@@ -105,7 +105,7 @@ plt.xlabel('(d) 聚类时间(s) ', fontsize=20) # x轴名称
 ax5 = plt.subplot(gs[2, 1:5])
 plt.ylim(0, 8700) #显示的y轴范围
 # plt.figure(figsize = (10, 10)) #设置图像大小，当然可以设成方形（12,8）挺合适
-plt.bar(x,y51, color='#04686b',width=0.5)
+plt.bar(x,y51, color='#edea9b',width=0.5)
 for a,b in zip(x,y51):   #柱子上的数字显示
  plt.text(a,b,'%.2f'%b,ha='center',va='bottom',fontsize=18);
 plt.xticks(fontsize=20)#嗯调调字体
